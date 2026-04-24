@@ -1,0 +1,22 @@
+
+        <header class="top-bar">
+            <div class="top-bar-container">
+                <h1 class="site-title"><a href="{{ site.url }}/"><img src="{{ site.url }}/assets/logo/the-curve.png" alt="{{ site.name }}"><span class="site-title-text">{{ site.name }}</span></a></h1>
+                <nav>
+                    <input type="checkbox" id="button">
+                    <label for="button" onclick>Menu</label>
+                    <ul>
+                        <li{% if page.section == 'home' %} class="active"{% endif %}>
+                            <a href="{{ site.url }}/">Home</a>
+                        </li>
+                        <li{% if page.section == 'events' %} class="active"{% endif %}>
+                            <a href="{{ site.url }}/shop/">Shop</a>
+                        </li>
+                        <li{% if page.section == 'about' %} class="active"{% endif %}>
+                            <a href="{{ site.url }}/about/">About Us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+

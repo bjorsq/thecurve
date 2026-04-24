@@ -1,0 +1,62 @@
+# ASCII-Font › https://patorjk.com/software/taag/#p=display&f=Big&t=THE%20CURVE
+#
+#  _______ _    _ ______    _____ _    _ _______      ________ 
+# |__   __| |  | |  ____|  / ____| |  | |  __ \ \    / /  ____|
+#    | |  | |__| | |__    | |    | |  | | |__) \ \  / /| |__   
+#    | |  |  __  |  __|   | |    | |  | |  _  / \ \/ / |  __|  
+#    | |  | |  | | |____  | |____| |__| | | \ \  \  /  | |____ 
+#    |_|  |_|  |_|______|  \_____|\____/|_|  \_\  \/   |______|
+#                                                              
+#
+# Title of the website
+title: The Curve
+# The description is used on homepage and in the footer to quickly describe the website.
+# Use a maximum of 150 characters for SEO-purposes.
+description: A friendly community volunteer group carrying out nature restoration work in the ancient woodland of Colden Clough
+# This URL is the main address. Don't include a slash at the end.
+url: "https://thecurvepopup.co.uk"
+host: localhost
+port: 4000
+# The baseurl is the subdirectory of your site, e.g. /blog or /
+baseurl: ""
+# admin email address
+admin_email: "info@thecurvepopup.co.uk"
+# URL path to images directory
+imgpath: "/assets/images/"
+lat: "51.56618888447973"
+lng: "0.002181957997896857"
+
+# Theme works best with Kramdown (using the table of contents function)
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title:output_ext
+highlight: pygments
+excerpt_separator: <!--more-->
+future: true
+
+# The language setting is used in /includes/header.html for html-settings
+language: "en"
+
+# SASS processing settings
+sass:
+    sass_dir: _scss
+    style: compressed
+
+# SEO shit
+# google_author:             ""
+# google_site_verification:  ""
+# bing_webmastertools_id:    ""
+# alexa_verify_id:           ""
+
+# Social Media bollocks
+facebook: ""
+
+# Include/exclude files from production _site
+exclude:
+- node_modules
+- Gemfile
+- Gemfile.lock
+- package.json
+- package-lock.json
+- LICENSE
+- README.md
+- CNAME

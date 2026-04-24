@@ -1,0 +1,67 @@
+/**
+ * baseline styles
+ */
+body {
+	font-size: 100%;
+	background: var(--background-color);
+	color: var(--text-color);
+	font-family: "Open Sans", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 150%;
+	position: relative;
+}
+a {
+    color: var(--link-colour);
+    &:hover, &:active {
+        color: var(--hover-colour);
+    }
+}
+/**
+ * content container
+ */
+
+.container {
+    padding: 0 2rem;
+}
+
+/**
+ * tables
+ */
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin: 1.5rem 0;
+	border-spacing: 0;
+	border: 1px solid var(--table-border);
+	th, td {
+		border: 1px solid var(--table-border);
+		padding: 0.5rem;
+	}
+	&.sticky thead th {
+		position: sticky;
+		top: 0;
+		z-index: 1;
+	}
+	tbody {
+		tr {
+			background-color: var(--stripe-bg);
+			color: var(--stripe-color);
+			&:nth-child(odd) {
+				background-color: var(--stripe-bg-odd);
+				color: var(--stripe-color-odd);
+			}
+		}
+	}
+	thead {
+		th {
+			background: var(--th-bg);
+			color: var(--th-color);
+			font-weight: normal;
+			text-align: left;
+			text-transform: capitalize;
+			vertical-align: baseline;
+			white-space: nowrap;
+		}
+	}
+}
