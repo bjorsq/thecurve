@@ -11,6 +11,7 @@ export const thecurve = {
     latlng: ['{{ site.lat }}','{{ site.lng }}'],
     popupimageurl: '{{ site.url }}{{ site.baseurl }}/assets/images/popup.jpg',
     description: '{{ site.description }}',
+    address: '{{ site.address }}',
     debug: true
 };
 

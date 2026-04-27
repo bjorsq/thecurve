@@ -5,6 +5,12 @@
     font-weight: normal;
     font-style: normal;
 }
+h2 {
+    margin-top: 0;
+}
+.home h2 {
+    display:none;
+}
 blockquote {
     border-left: 1rem solid var(--blockquote-border-colour);
     margin-left: 0;

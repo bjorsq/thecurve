@@ -67,7 +67,7 @@ export function initMap() {
 
     // load the curve popup and open
     thecurve.marker = new Marker(thecurve.latlng).addTo(thecurve.map);
-    thecurve.popup = '<section><header class="popup-header"><img src="' + thecurve.popupimageurl + '" alt="The Curve"></header><div class="popup-body">' + thecurve.description + '<p><a target="_blank" class="button" href="https://www.google.com/maps/dir/?api=1&destination=' + thecurve.latlng.join(',') + '">Get directions</a></p></div></section>';
+    thecurve.popup = '<section><header class="popup-header"><img src="' + thecurve.popupimageurl + '" alt="The Curve"></header><div class="popup-body"><p>' + thecurve.address + '</p><p><a target="_blank" class="button" href="https://www.google.com/maps/dir/?api=1&destination=' + thecurve.latlng.join(',') + '">Get directions</a></p></div></section>';
     thecurve.marker.bindPopup( thecurve.popup, {'width':300,'className':'thecurve-popup'} ).openPopup();
     document.dispatchEvent( new Event( 'maploaded' ) );
 }

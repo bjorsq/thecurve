@@ -5,8 +5,6 @@ permalink: /space/
 section: space
 ---
 
-## Images
-
 {% include image.html image="interior-counter.jpg" alt="Counter" %}
 
 {% include image.html image="interior-n.jpg" alt="North corner" %}
