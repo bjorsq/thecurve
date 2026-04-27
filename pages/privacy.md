@@ -2,7 +2,7 @@
 layout: page
 title: Privacy Notice
 permalink: /privacy/
-section: about
+section: privacy
 ---
 
 This privacy notice tells you what to expect us to do with your personal information.

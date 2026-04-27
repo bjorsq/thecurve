@@ -1,8 +1,8 @@
 :where(body) {
     --background-color: #fff;
     --text-color: #222;
-    --link-colour: #15570c;
-    --hover-colour: #1c7e10;
+    --link-colour: #d77000;
+    --hover-colour: #d74800;
     --top-bar-bg-colour: #5f5657;
     --top-bar-border: #1a1a1a;
     --top-bar-text-colour: #fff;
@@ -34,7 +34,8 @@
     :where(body) {
         --background-color: #222;
         --text-color: #fff;
-        --link-colour: #a3ff91;
+        --link-colour: #ffd58d;
+        --hover-colour: #d77000;
         --stripe-bg: #222;
         --stripe-color: #fff;
         --stripe-bg-odd: #333;
@@ -47,7 +48,8 @@
 :where(body.dark) {
     --background-color: #222;
     --text-color: #fff;
-    --link-colour: #a3ff91;
+    --link-colour: #ffd58d;
+    --hover-colour: #d77000;
     --stripe-bg: #222;
     --stripe-color: #fff;
     --stripe-bg-odd: #333;

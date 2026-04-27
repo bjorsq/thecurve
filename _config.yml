@@ -12,7 +12,7 @@
 title: The Curve
 # The description is used on homepage and in the footer to quickly describe the website.
 # Use a maximum of 150 characters for SEO-purposes.
-description: A friendly community volunteer group carrying out nature restoration work in the ancient woodland of Colden Clough
+description: The Curve is a bright, adaptable space for hire in vibrant Leytonstone. The perfect place to showcase your business, host workshops or run classes
 # This URL is the main address. Don't include a slash at the end.
 url: "https://thecurvepopup.co.uk"
 host: localhost
@@ -23,8 +23,10 @@ baseurl: ""
 admin_email: "info@thecurvepopup.co.uk"
 # URL path to images directory
 imgpath: "/assets/images/"
+# map settings
 lat: "51.56618888447973"
 lng: "0.002181957997896857"
+startzoom: 18
 
 # Theme works best with Kramdown (using the table of contents function)
 markdown: kramdown

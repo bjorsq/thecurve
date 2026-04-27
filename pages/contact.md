@@ -2,7 +2,7 @@
 layout: page
 title: Contact Us
 permalink: /contact/
-section: about
+section: contact
 ---
 
 To be kept in the loop with information about **The Curve**,

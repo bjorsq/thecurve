@@ -1,1 +1,14 @@
 <!-- The contents of this file wil be included in the page <head> -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@2.0.0-alpha.1/dist/leaflet.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@v0.89.0/dist/L.Control.Locate.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet.fullscreen/dist/Control.FullScreen.css">
+        <script type="importmap">
+        {
+            "imports": {
+                "leaflet": "https://unpkg.com/leaflet@2.0.0-alpha.1/dist/leaflet.js",
+                "locatecontrol": "https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@v0.89.0/dist/L.Control.Locate.esm.js",
+                "fullscreencontrol": "https://unpkg.com/leaflet.fullscreen/dist/Control.FullScreen.js"
+            }
+        }
+        </script>
+        <script src="{{ site.url }}{{ site.baseurl }}/assets/js/main.js" type="module"></script>

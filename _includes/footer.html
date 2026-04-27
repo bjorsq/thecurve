@@ -3,8 +3,18 @@
                 <p>&copy; {{ site.time | date: "%Y" }} {{ site.name }}</p>
                 <nav>
                     <ul>
-                        <li><a href="{{ site.url }}/contact/">Contact Us</a></li>
-                        <li><a href="{{ site.url }}/privacy/">Privacy Policy</a></li>
+                        <li{% if page.section == 'location' %} class="active"{% endif %}>
+                            <a href="{{ site.url }}/location/">Location</a>
+                        </li>
+                        <li{% if page.section == 'space' %} class="active"{% endif %}>
+                            <a href="{{ site.url }}/space/">Space</a>
+                        </li>
+                        <li{% if page.section == 'contact' %} class="active"{% endif %}>
+                            <a href="{{ site.url }}/contact/">Contact Us</a>
+                        </li>
+                        <li{% if page.section == 'privacy' %} class="active"{% endif %}>
+                            <a href="{{ site.url }}/privacy/">Privacy Policy</a>
+                        </li>
                     </ul>
                 </nav>
                 <!--<div class="social">

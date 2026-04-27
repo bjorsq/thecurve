@@ -2,9 +2,9 @@
 :where(body) {
   --background-color: #fff;
   --text-color: #222;
-  --link-colour: #15570c;
-  --hover-colour: #1c7e10;
-  --top-bar-bg-colour: #333;
+  --link-colour: #d77000;
+  --hover-colour: #d74800;
+  --top-bar-bg-colour: #5f5657;
   --top-bar-border: #1a1a1a;
   --top-bar-text-colour: #fff;
   --footer-bg-colour: #333;
@@ -35,7 +35,8 @@
   :where(body) {
     --background-color: #222;
     --text-color: #fff;
-    --link-colour: #a3ff91;
+    --link-colour: #ffd58d;
+    --hover-colour: #d77000;
     --stripe-bg: #222;
     --stripe-color: #fff;
     --stripe-bg-odd: #333;
@@ -48,7 +49,8 @@
 :where(body.dark) {
   --background-color: #222;
   --text-color: #fff;
-  --link-colour: #a3ff91;
+  --link-colour: #ffd58d;
+  --hover-colour: #d77000;
   --stripe-bg: #222;
   --stripe-color: #fff;
   --stripe-bg-odd: #333;
@@ -476,6 +478,11 @@ footer .container {
   margin: 0 auto;
 }
 
+#map {
+  width: 100%;
+  height: calc(100vh - 7.5rem);
+}
+
 @font-face {
   font-family: "Open Sans";
   src: url("../font/OpenSans.woff") format("woff"), url("../font/OpenSans.ttf") format("truetype");
@@ -741,6 +748,46 @@ article.post-list-item .post-list-item-content {
     padding: 0 2em;
   }
 }
+a.button,
+.popup-body a.button {
+  background: linear-gradient(to bottom, var(--top-bar-bg-colour) 5%, var(--top-bar-border) 100%);
+  background-color: var(--top-bar-bg-colour);
+  border: 1px solid var(--top-bar-border);
+  border-radius: 9px;
+  display: inline-block;
+  cursor: pointer;
+  color: var(--top-bar-text-colour);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 9px 24px;
+  text-decoration: none;
+}
+a.button:hover,
+.popup-body a.button:hover {
+  background: linear-gradient(to bottom, var(--top-bar-border) 5%, var(--top-bar-bg-colour) 100%);
+  background-color: var(--top-bar-border);
+  color: var(--top-bar-text-colour);
+}
+a.button:active,
+.popup-body a.button:active {
+  position: relative;
+  top: 1px;
+}
+
+.thecurve-map {
+  width: 100%;
+  height: 50rem;
+  margin-bottom: 1.5rem;
+}
+
+.thecurve-popup {
+  max-width: 250px;
+}
+.thecurve-popup img {
+  width: 100%;
+  height: auto;
+}
+
 .home article figure.featuredimage {
   margin: 1rem 0 1rem 0;
   width: 55%;

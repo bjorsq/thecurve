@@ -3,6 +3,7 @@ title: The Curve Pop Up
 layout: page
 permalink: /
 featuredimage: exterior.jpg
+section: home
 ---
 
 ## 2 Richmond Road, Leytonstone, London E11 4BA
@@ -11,12 +12,4 @@ featuredimage: exterior.jpg
 
 Flooded with natural light from large windows and double doors, the space feels open, calm, and inviting. It can be easily adapted to suit your needs, whether you're planning a pop-up, creative session, wellness class, or community event. **The Curve** also includes on-site storage and a bathroom, making it a practical and comfortable space for both hosts and guests.
 
-{% include content/image.html image="interior-counter.jpg" alt="Counter" %}
-
-{% include content/image.html image="interior-n.jpg" alt="North corner" %}
-
-{% include content/image.html image="interior-ne.jpg" alt="Rear wall" %}
-
-{% include content/image.html image="interior-sw.jpg" alt="South West corner" %}
-
-{% include content/image.html image="interior-storage.jpg" alt="Storage space" %}
+[See images of the space and floorplans on the Space page]({{ site.url }}{{ site.baseurl }}{% link pages/space.md %}).
