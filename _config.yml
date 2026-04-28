@@ -15,11 +15,11 @@ title: The Curve
 description: The Curve is a bright, adaptable space for hire in vibrant Leytonstone. The perfect place to showcase your business, host workshops or run classes
 address: 2 Richmond Road, Leytonstone, London E11 4BA
 # This URL is the main address. Don't include a slash at the end.
-url: "https://www.bjorsq.net"
+url: "https://thecurvepopup.github.io"
 host: localhost
 port: 4000
 # The baseurl is the subdirectory of your site, e.g. /blog or /
-baseurl: "/thecurve"
+baseurl: ""
 # admin email address
 admin_email: "info@thecurvepopup.co.uk"
 # URL path to images directory
