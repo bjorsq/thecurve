@@ -287,8 +287,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (~> 232)
-  jekyll-remote-theme
-  jekyll-sitemap
   webrick
 
 RUBY VERSION
