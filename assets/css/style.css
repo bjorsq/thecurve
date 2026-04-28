@@ -540,6 +540,7 @@ blockquote cite {
 .top-bar h1 {
   margin: 0;
   position: absolute;
+  z-index: 2;
 }
 .top-bar h1 a, .top-bar h1 a:hover {
   font-size: 1.4rem;

@@ -19,6 +19,7 @@
 	h1 {
 		margin: 0;
 		position:absolute;
+		z-index:2;
 		a, a:hover {
 			font-size: 1.4rem;
 			color: var(--top-bar-text-colour);

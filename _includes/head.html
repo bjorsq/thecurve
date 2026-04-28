@@ -8,6 +8,11 @@
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
         <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/style.min.css">
         {% if site.google_author %}<link rel="author" href="{{ site.google_author }}"/>{% endif %}
+        <!-- favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}{{ site.baseurl }}/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}{{ site.baseurl }}/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ site.url }}{{ site.baseurl }}/favicon-16x16.png">
+        <link rel="manifest" href="{{ site.url }}{{ site.baseurl }}/site.webmanifest">
         <!-- Facebook Optimization -->
         <meta property="og:locale" content="{% if site.og_locale == nil %}en_EN{% else %}{{ site.og_locale }}{% endif %}" />
         {% if site.og_type %}<meta property="og:type" content="website" />{% endif %}
