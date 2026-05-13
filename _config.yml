@@ -21,7 +21,7 @@ port: 4000
 # The baseurl is the subdirectory of your site, e.g. /blog or /
 baseurl: ""
 # admin email address
-admin_email: "info@thecurvepopup.co.uk"
+admin_email: "lucy@lucysmith.org.uk"
 # URL path to images directory
 imgpath: "/assets/images/"
 # map settings
